@@ -1,0 +1,42 @@
+
+
+classes/
+deploy/
+temp/
+build/
+
+.settings/
+.metadata/
+.classpath
+.project
+.data/
+.WL_internal/
+servers/
+
+#This allows you to have a build-deployed that's not overwritten 
+build-deployed.properties
+
+#Build script will create this file to store current build info
+build-git.jsp
+
+*wlsjsps*
+
+#Ignore there files, anywhere
+Thumbs.db
+*.class
+*.orig
+*.bak
+*.war
+*.swp
+*\.BACKUP\.*
+*\.BASE\.*
+*\.REMOTE\.*
+*\.LOCAL\.*
+.DS_Store
+*.jdb
+*.lck
+
+#Idea IntelliJ Filed
+*.iml
+.idea/
+ 
