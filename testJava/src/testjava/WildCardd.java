@@ -35,7 +35,17 @@ public class WildCardd {
         System.out.println(sumOfNumbers(Arrays.asList(1.9, 2, 3)));
         System.out.println(sumOfNumbers(Arrays.asList(1.9, 2, 3L)));
         System.out.println("................");
+        
         List ll = new ArrayList<Number>();
         System.out.println(insertNumbers(ll));
+        
+        
+        List l2 = new ArrayList<String>();
+        System.out.println();
+        System.out.println(insertNumbers(l2));
+        
+        ArrayList<String> l3 = new ArrayList<String>();
+         
+        System.out.println();
     }
 }
